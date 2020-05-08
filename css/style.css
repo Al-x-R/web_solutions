@@ -81,3 +81,12 @@ main h2 {
     display: block;
     padding: 1em;
 }
+#digitalNeeds h2 {
+    margin-top: 2em;
+}
+#digitalNeeds p {
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 3em;
+}
