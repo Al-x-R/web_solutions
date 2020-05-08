@@ -22,13 +22,12 @@ header {
     height: 65vh;
 }
 header h1 {
-    display: block;
     padding-top: 2em;
     font-size: 2em;
 }
 header p {
     display: block;
-    width: 90%;
+    width: 80%;
     margin: auto;
     padding: 1em 0 2em 0;
     font-size: 1em;
@@ -89,4 +88,27 @@ main h2 {
     width: 80%;
     margin: auto;
     padding-bottom: 3em;
+}
+article {
+    display: flex;
+}
+.contact {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 50%;
+    background-color: #2690d4;
+    color: white;
+}
+.contact h2 {
+    margin-top: 1.5em;
+}
+.contact p {
+    display: block;
+    padding: 1em;
+}
+address {
+    padding: 1em;
+}
+.about {
+    background-color: #333;
 }
