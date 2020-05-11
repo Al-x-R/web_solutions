@@ -3,11 +3,15 @@
     margin: 0;
     padding: 0;
     text-align: center;
+    --primary-color: white;
+    --secondary-color: black;
+    --bg-primary-color: #333;
+    --bg-secondary-color: #2690d4;
 }
 body {
     font-size: 1.1em;
     line-height: 1.5;
-    color: white;
+    color: var(--primary-color);
     font-family: Arial, Helvetica, sans-serif;
 }
 .wrapper {
@@ -40,16 +44,16 @@ header a {
     text-decoration: none;
     border: 2px solid white;
     padding: 1em 2em;
-    color: white;
+    color: var(--primary-color);
     font-size: 1em;
     text-transform: capitalize;
 }
 header a:hover {
-    background-color: white;
-    color: black;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 main{
-    color: black;
+    color: var(--secondary-color);
 }
 main h2 {
     padding: 1em;
@@ -61,7 +65,7 @@ main h2 {
 }
 #cards {
     padding: 2em 1em;
-    background-color: #333;
+    background-color: var(--bg-primary-color);
     box-sizing: border-box;
 }
 .card {
@@ -69,14 +73,12 @@ main h2 {
     width: 33.33%;
     height: 425px;
     padding: 1em;
-    background-color: #333;
+    background-color: var(--bg-primary-color);
     overflow: hidden;
     text-overflow: ellipsis;
-
-
 }
 .card_content {
-    background-color: white;
+    background-color: var(--primary-color);
 }
 .card img {
     width: 100%;
@@ -98,13 +100,12 @@ main h2 {
     margin: auto;
     padding-bottom: 3em;
 }
-
 .contact {
     box-sizing: border-box;
     display: inline-block;
     width: 50%;
-    background-color: #2690d4;
-    color: white;
+    background-color: var(--bg-secondary-color);
+    color: var(--primary-color);
     height: 300px;
     vertical-align: top;
     overflow-y: auto;
@@ -119,8 +120,8 @@ main h2 {
     background-color: #333;
 }
 footer {
-    background-color: black;
-    color: white;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
     display: block;
 }
 footer p {
@@ -129,7 +130,7 @@ footer p {
     padding: 2em;
 }
 footer a {
-    color: #2690d4;
+    color: var(--bg-secondary-color);
     text-decoration: none;
 }
 
